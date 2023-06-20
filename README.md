@@ -16,7 +16,7 @@ When users view the webpage, they can use nav bar to guide them to different sec
 
 ![Image text](https://github.com/CQlove/Professional-Portfolio/blob/main/assets/images/screen-shot.png)
 
-[Link to the deployed website]()
+[Link to the deployed website](https://cqlove.github.io/Professional-Portfolio/)
 
 [Link to the code repository](https://github.com/CQlove/Professional-Portfolio)
 
