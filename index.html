@@ -1,11 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- link css into html -->
-    <link rel="stylesheet" href="./assets/css/style.css"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/css/style.css" />
     <title>Professional Portfolio</title>
 </head>
 
@@ -24,7 +27,7 @@
     <!-- main content in this html including my picture and about me, as well as my work -->
     <main>
         <!-- first section starts -->
-        <section class="About-me">    
+        <section class="About-me">
             <div id="side-text">
                 <!-- match the name in nav bar, once it click in nav bar, it goes to here -->
                 <h2 id="me">About Me</h2>
@@ -34,29 +37,71 @@
                     <img id="photo-of-mine" src="./assets/images/photo-of-mine.jpg" alt="Photo of Mine">
                 </picture>
                 <p>
-                    A graduate of the University of Washington Foster School of Business, Jianxiong took a 180-degree turn into an auto mechanic with his passion for cars when it came to career choices. In the meantime, he took some self-directed programming lessons when he was not at the shop. While he enjoyed getting his hands dirty on mechanical jobs, he realized he had an even greater desire to "Think Big" through the lines of codes and fix the invisible problems - bug hunts! You will find Jianxiong either typing up codes in front of his multi-screen computer, messing with his cars in the garage, or taking a pleasant walk with his wife and dog Twinkle - a lovely fluffy pomsky!
+                    A graduate of the University of Washington Foster School of Business, Jianxiong took a 180-degree
+                    turn into an auto mechanic with his passion for cars when it came to career choices. In the
+                    meantime, he took some self-directed programming lessons when he was not at the shop. While he
+                    enjoyed getting his hands dirty on mechanical jobs, he realized he had an even greater desire to
+                    "Think Big" through the lines of codes and fix the invisible problems - bug hunts! You will find
+                    Jianxiong either typing up codes in front of his multi-screen computer, messing with his cars in the
+                    garage, or taking a pleasant walk with his wife and dog Twinkle - a lovely fluffy pomsky!
                 </p>
             </div>
         </section>
-       <!-- second section starts -->
+        <!-- second section starts -->
         <section class="work-of-mine">
             <div id="side-text">
                 <h2 id="previous-Work">Previous Work</h2>
             </div>
-            <div id="project-link-and-pic">
+            <!-- <div id="project-link-and-pic">
                 <a href="https://cqlove.github.io/code-refactoring-for-homeworkone/">
-                    <image id="Horiseon" src="./assets/images/screenshot.png" alt="Horiseon"></image>                    
+                    <image id="Horiseon" src="./assets/images/screenshot.png" alt="Horiseon"></image>
                 </a>
                 <a href="https://cqlove.github.io/prework-study-guide/">
-                    <image id="prework" src="./assets/images/Screenshot-prework.png" alt="Previous-work-prework"></image>
+                    <image id="prework" src="./assets/images/Screenshot-prework.png" alt="Previous-work-prework">
+                    </image>
                 </a>
                 <a href="https://ronin1702.github.io/krapyak/">
                     <image id="Project-krapyak" src="./assets/images/krapyak.png" alt="Project-krapyak"></image>
                 </a>
+            </div> -->
+            <div class="container text-center" id="project-link-and-pic">
+                <div class="row">
+                    <div class="col">
+                        <p class="fw-bolder mt-3">Horiseon:</p>
+                        <a href="https://cqlove.github.io/code-refactoring-for-homeworkone/">
+                            <image id="Horiseon" src="./assets/images/screenshot.png" alt="Horiseon"></image>
+                        </a>
+                    </div>
+                    <div class="col">
+                        <p class="fw-bolder mt-3">Prework study guide:</p>
+                        <a href="https://cqlove.github.io/prework-study-guide/">
+                            <image id="prework" src="./assets/images/Screenshot-prework.png"
+                                alt="Previous-work-prework">
+                            </image>
+                        </a>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <p class="fw-bolder mt-3">Project 1(Krapyak):</p>
+                        <a href="https://ronin1702.github.io/krapyak/">
+                            <image id="Project-krapyak" src="./assets/images/krapyak.png" alt="Project-krapyak"></image>
+                        </a>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <p class="fw-bolder mt-3">Project 2 cover letter generator(Full-stack-web):</p>
+                        <a href="https://github.com/Ronin1702/project2">
+                            <image id="Project-cv-letter" src="./assets/images/krapyak.png" alt="Project-cv-letter">
+                            </image>
+                        </a>
+                    </div>
+                </div>
             </div>
         </section>
     </main>
-    
+
     <!-- This is the footer which is the contact me section at bottom -->
     <footer>
         <div id="side-text-footer">
@@ -74,5 +119,5 @@
         </div>
     </footer>
 </body>
-</html>
 
+</html>
